@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/checkbox_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:padding="15dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Front" />
+
+        <CheckBox
+            android:id="@+id/checkbox_chest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chest" />
+
+        <CheckBox
+            android:id="@+id/checkbox_abs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abs" />
+
+        <CheckBox
+            android:id="@+id/checkbox_obliques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Obliques" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+
+        <CheckBox
+            android:id="@+id/checkbox_lower_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lower Back" />
+
+        <CheckBox
+            android:id="@+id/checkbox_traps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Traps" />
+
+        <CheckBox
+            android:id="@+id/checkbox_lats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lats" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arms" />
+
+        <CheckBox
+            android:id="@+id/checkbox_shoulders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shoulders" />
+
+        <CheckBox
+            android:id="@+id/checkbox_biceps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biceps" />
+
+        <CheckBox
+            android:id="@+id/checkbox_triceps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Triceps" />
+
+        <CheckBox
+            android:id="@+id/checkbox_forearms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forearms" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Legs" />
+
+        <CheckBox
+            android:id="@+id/checkbox_quads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quads" />
+
+        <CheckBox
+            android:id="@+id/checkbox_hamstrings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hamstrings" />
+
+        <CheckBox
+            android:id="@+id/checkbox_glutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Glutes" />
+
+        <CheckBox
+            android:id="@+id/checkbox_abductors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abductors" />
+
+        <CheckBox
+            android:id="@+id/checkbox_adductors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adductors" />
+
+        <CheckBox
+            android:id="@+id/checkbox_calves"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calves" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cardio" />
+
+        <CheckBox
+            android:id="@+id/checkbox_cardio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cardio" />
+
+    </LinearLayout>
+
+</ScrollView>

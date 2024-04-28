@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!-- Chronometer -->
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+    <!--    moved from: app:layout_constraintTop_toBottomOf="@id/optionsButton"-->
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <!-- Current exercise name -->
+    <TextView
+        android:id="@+id/restLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rest"
+        android:padding="16dp"
+        android:textSize="30sp"
+        android:visibility="gone"
+        android:gravity="center_horizontal" />
+
+    <!-- Rest timer, starts hidden -->
+    <TextView
+        android:id="@+id/restTimerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:text="00:00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="parent" />
+    <!--    moved from: app:layout_constraintTop_toBottomOf="@id/optionsButton"-->
+
+    <!-- Current exercise name -->
+    <TextView
+        android:id="@+id/exerciseNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise 1"
+        android:padding="16dp"
+        android:textSize="30sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/setsView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="0dp"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:gravity="center_horizontal" />
+
+    <!-- Layout for weight and reps titles -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/weightText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Weight (lbs)" />
+
+        <TextView
+            android:id="@+id/repsOrTimeTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Reps" />
+
+    </LinearLayout>
+    <!-- End of layout for weight and reps titles -->
+
+    <!-- Layout for weight and reps button numbers -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/weightTextChanger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="25"
+            android:textSize="50sp"
+            android:padding="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/repsOrTimeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="10"
+            android:textSize="50sp"
+            android:padding="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <!-- End of layout for weight and reps buttons -->
+
+    <!-- Layout for prev, pause, and next buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <!-- Previous button -->
+        <ImageButton
+            android:id="@+id/prevButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/next_button"
+            android:rotation="180"
+            android:padding="8dp" />
+
+        <!-- Pause button -->
+        <ImageButton
+            android:id="@+id/pauseOrPlayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/pause_button"
+            android:padding="8dp" />
+
+        <!-- Next Button -->
+        <ImageButton
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/next_button"
+            android:padding="8dp" />
+
+    </LinearLayout>
+    <!-- End of Layout for prev, pause and next buttons -->
+
+    <!-- Layout for next exercise text view -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <!-- Next exercise text view -->
+        <TextView
+            android:id="@+id/nextExerciseTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=""
+            android:gravity="center"
+            android:padding="16dp" />
+    </LinearLayout>
+    <!-- End of layout for next exercise text view -->
+
+</LinearLayout>

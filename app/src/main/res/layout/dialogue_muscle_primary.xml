@@ -1,0 +1,143 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Front" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_chest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chest" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_abs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abs" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_obliques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Obliques" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_lower_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lower Back" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_traps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Traps" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_lats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lats" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arms" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_shoulders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shoulders" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_biceps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biceps" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_triceps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Triceps" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_forearms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forearms" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Legs" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_quads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quads" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_hamstrings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hamstrings" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_glutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Glutes" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_abductors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abductors" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_adductors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adductors" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_calves"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calves" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cardio" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_cardio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cardio" />
+
+    </RadioGroup>
+
+</ScrollView>

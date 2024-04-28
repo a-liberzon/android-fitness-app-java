@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/checkbox_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical">
+
+        <CheckBox
+            android:id="@+id/checkbox_barbell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barbell" />
+
+        <CheckBox
+            android:id="@+id/checkbox_dumbbell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dumbbell" />
+
+        <CheckBox
+            android:id="@+id/checkbox_kettlebell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kettlebell" />
+
+        <CheckBox
+            android:id="@+id/checkbox_resistance_band"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resistance Band" />
+
+        <CheckBox
+            android:id="@+id/checkbox_ankle_weights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ankle Weights" />
+
+        <CheckBox
+            android:id="@+id/checkbox_pull_up_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pull-up Bar" />
+
+        <CheckBox
+            android:id="@+id/checkbox_jump_rope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jump Rope" />
+
+        <CheckBox
+            android:id="@+id/checkbox_parallel_bars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parallel Bars" />
+
+        <CheckBox
+            android:id="@+id/checkbox_trx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TRX" />
+
+        <CheckBox
+            android:id="@+id/checkbox_medicine_ball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medicine Ball" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="box_size">100dp</dimen>
+    <dimen name="text_size_1">25sp</dimen>
+    <dimen name="text_size_2">20sp</dimen>
+    <dimen name="text_size_3">15sp</dimen>
+</resources>

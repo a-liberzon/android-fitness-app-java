@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/congratulationsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations!"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/completeMessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have completed the workout routine!"
+        android:textSize="20sp"
+        android:layout_below="@id/congratulationsText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"/>
+
+    <ImageView
+        android:id="@+id/trophyImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/trophy"
+        android:layout_below="@id/completeMessageText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to workouts"
+        android:layout_below="@id/trophyImage"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:backgroundTint="?attr/colorAccent"
+        android:layout_marginTop="24dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="0dp"
+    android:paddingTop="10dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp">
+
+    <!-- Friend's box -->
+    <LinearLayout
+        android:id="@+id/friend_box"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/friend_border"
+        android:orientation="horizontal">
+
+        <!-- Friend's image -->
+        <ImageView
+            android:id="@+id/friend_image"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_friend"
+            android:background="@drawable/circle_background"
+            android:scaleType="centerCrop" />
+
+        <!-- Friend's data -->
+        <LinearLayout
+            android:id="@+id/friend_data"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="8dp">
+
+            <!-- Friend's username/email? -->
+            <TextView
+                android:id="@+id/friend_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sam94h"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <!-- Friend's # of workouts -->
+            <TextView
+                android:id="@+id/friend_workout_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 Workouts"
+                android:textSize="18sp" />
+
+            <!-- Friend's # of followers -->
+            <TextView
+                android:id="@+id/friend_follower_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="120 Followers"
+                android:textSize="18sp" />
+
+            <!-- View friend's workouts button -->
+            <Button
+                android:id="@+id/friend_workouts_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:text="See workouts" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Pin to put on top -->
+    <ImageView
+        android:id="@+id/pin_icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_pin_unpinned"
+        android:layout_marginStart="8dp"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout>

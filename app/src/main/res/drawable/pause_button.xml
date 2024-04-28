@@ -1,0 +1,27 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:width="70dp"
+        android:height="70dp">
+        <shape android:shape="oval">
+            <solid android:color="#555555" />
+        </shape>
+    </item>
+
+    <item
+        android:top="10dp"
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp">
+        <vector
+            android:width="50dp"
+            android:height="50dp"
+            android:viewportWidth="24"
+            android:viewportHeight="32">
+            <path
+                android:fillColor="#8BC34A"
+                android:pathData="M5,5h4v22h-4zM15,5h4v22h-4z" />
+        </vector>
+    </item>
+
+</layer-list>
